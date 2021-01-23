@@ -13,7 +13,10 @@
     position: relative;
     margin: auto;
   }
-  
+  .slideshow-container1 {
+    position: relative;
+    margin: auto;
+  }
   /* Next & previous buttons */
   .prev, .next {
     cursor: pointer;
