@@ -19,21 +19,6 @@
 
 </head>
 <body>
-    <div id="wrapper" class="home-page">
-    <div class="topbar">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <p style="font-weight: bold; font-size: large;" class="pull-left hidden-xs">CeeDeeYes D.A.V. Public Shool</p>
-            <a class="button1" style="text-align: center;" href="admission.html">Admission open for 2021-2022</a>
-            <a class="button1" style="text-align: center;" href="result.html">CBSE Results 2019-2020</a>
-            <p class="pull-right"><i class="fa fa-phone" style="font-size:medium;"></i>044-47431746</p>
-            <br>
-            <p class="pull-right"><i class="fa fa-envelope-o"></i>cdsdavps@gmail.com</p>
-          </div>
-        </div>
-      </div>
-    </div>
         <!-- start header -->
         <header>
             <div class="navbar navbar-default navbar-static-top">
@@ -49,16 +34,40 @@
                     <div class="navbar-collapse collapse ">
                         <ul class="nav navbar-nav">
                             <li><a href="index.html">Home</a></li> 
-                            <li class="active"><a href="about.html">About us</a></li> 
+                            <li class="dropdown">
+                                <a href="about.html" data-toggle="dropdown" class="dropdown-toggle">About Us<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="ourschool.html">Our School</a></li>
+                                    <li><a href="principal.html">Principal Message</a></li>
+                                    <li><a href="vision.html">Vision and Mission</a></li>
+                                </ul> 
                             <li><a href="admission.html">Admission</a></li>
                             <li><a href="award.html">Awards</a></li>
-                            <li><a href="portfolio.html">Gallery</a></li>
-                            <li><a href="infra.html">Infrastructure</a></li>
+                            <li class="dropdown">
+                            <a href="portfolio.html" data-toggle="dropdown" class="dropdown-toggle">Gallery<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="annual.html">Annual Day & Sports Day</a></li>
+                                <li><a href="trip.html">Celebration & Trip</a></li>
+                                <li><a href="extracurricular.html">Extracurricular</a></li> 
+                                <li><a href="kinder.html">Kinder Garden</a></li>
+                            </ul>
+                        </li> 
+                        <li class="dropdown">
+                            <a href="infra.html" data-toggle="dropdown" class="dropdown-toggle">Infrastructure<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="lab.html">Laboratory</a></li>
+                                <li><a href="trans.html">Library and Transport</a></li>
+                            </ul>
                             <li><a href="staff.html">Staff Details</a></li>
+                            <li><a href="contact.html">Contact us</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
+            <marquee width="60%" direction="left" height="30px" style="font-weight: bold;">
+                <a href="result.html">CBSE Results 2019 - 2020</a>  &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="admission.html">Admission Going on for 2021 - 2022</a>
+                </marquee>
         </header>
         <section id="inner-headline">
 	<div class="container">
@@ -78,8 +87,8 @@
 				</div>
 				<div class="col-md-6">
 					<div class="about-text">
-						<h3 style="font-weight: bold;">Cee Dee Yes D.A.V Public school </h3>
-						<p style="font-weight: bold; font-size: medium;">Cee Dee Yes D.A.V Public school (CDSDAVPS) , one of the best CBSE schools in chennai
+						<h3 style="font-weight: bold; color: blue;">Cee Dee Yes D.A.V Public school </h3>
+						<p style="text-align: justify; font-size: medium; color: black; line-height: 30px;">Cee Dee Yes D.A.V Public school (CDSDAVPS) , one of the best CBSE schools in chennai
                             located in a 56 acres township called cee dee yes chennaipattinam at Ammapet, Chengalpattu District.
                             CDSDAVPS , sprawls over 1 acres and has an idyllic setting amidst lush greenery and a pollution
                             free atmosphere. It is Strategically located between the two growth corridors GST and OMR. CDSDAVPS 
@@ -105,9 +114,9 @@
 							<div class="col-md-6">
 								<!-- Heading and para -->
 								<div class="block-heading-two">
-									<h2 style="font-weight: bold;">Principal's Message</h2>
+									<h2 style="font-weight: bold; color: blue;">Principal's Message</h2>
 								</div>
-                                <p style="font-weight: bold; font-size: medium;">Education helps the human to ignite the spark within us which shows the way to act. It builds optimism within the human being. It enhances all the qualities of human to the next level. 
+                                <p style="text-align: justify; font-size: medium; color: black; line-height: 30px;">Education helps the human to ignite the spark within us which shows the way to act. It builds optimism within the human being. It enhances all the qualities of human to the next level. 
                                     It help us to accept the changes in the society, evolution of technology, collaboration with others, online teaching etc. It improves our self-esteem, self-confidence, self reflection, ability to evaluate information 
                                     and predict future outcomes, ability to seek out alternative solutions and ensures to live a fulfilling life.
                                     Our School moto is<b>"Education to all types of children"</b> We promote holistic development of a child. It includes both curricular and co-curricular activities. Children were exposed to healthy environment.
@@ -124,7 +133,7 @@
                             </div>
 						</div>
 	</section>
-	<footer>
+    <footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
@@ -137,6 +146,13 @@
                         Chengalpattu District - 603110.</address>
                         
                     </div>
+                        <div class="widget">
+                            <h5 class="widgetheading">Recent News</h5>
+                            <ul class="link-list">
+                                <li><a href="admission.html">Admission starts for the academic year 2021-2022.</a></li>
+                                <li><a href="result.html">CBSE Results</a></li>
+                            </ul>
+                        </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="widget">
@@ -151,9 +167,29 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="widget">
-                        <h5 class="widgetheading">Recent News</h5>
+                        <h5 class="widgetheading">About Us</h5>
                         <ul class="link-list">
-                            <li><a href="admission.html">Admission starts for the academic year 2021-2022.</a></li>
+                            <li><a href="ourschool.html">Our School</a></li>
+                            <li><a href="principal.html">Principal Message</a></li>
+                            <li><a href="vision.html">Vision And Mission</a></li>
+                        </ul>
+                    </div>
+                        <div class="widget">
+                            <h5 class="widgetheading">Infrastructure</h5>
+                            <ul class="link-list">
+                                <li><a href="annual.html">Laboratory</a></li>
+                                <li><a href="trip.html">Library and Transport</a></li>
+                            </ul>
+                        </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="widget">
+                        <h5 class="widgetheading">Gallery</h5>
+                        <ul class="link-list">
+                            <li><a href="annual.html">Annual and Sports Day</a></li>
+                            <li><a href="trip.html">Celebration and Trip</a></li>
+                            <li><a href="extracurricular.html">Extra Curricular</a></li>
+                            <li><a href="kinder.html">Kinder Garden</a></li>
                         </ul>
                     </div>
                 </div>
