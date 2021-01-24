@@ -28,7 +28,7 @@ h1,h2{
 	line-height:1.1em;
 	color:#333;
 	margin-bottom: 20px;
-	text-transform: uppercase;
+
 }
 h3, h4, h5, h6 { 
 	line-height:1.1em;
@@ -164,7 +164,7 @@ color: #1891EC;
 
 header .navbar-collapse  ul.navbar-nav {
     float:none;
-    margin-right: 0;
+	margin-right: 0;
 }
 header .navbar {min-height: 70px;padding: 18px 0;background: #fff;}
 .home-page header .navbar-default{
@@ -208,7 +208,7 @@ header .navbar {
 header .navbar-nav > li  {
     padding-bottom: 1px;
     padding-top: 20px;
-    padding: 10 !important;
+	padding: 10 !important;
 }
 
 header  .navbar-nav > li > a {
@@ -216,7 +216,7 @@ header  .navbar-nav > li > a {
     /* padding-top: 5px; */
     margin-left: 2px;
     line-height: 20px;
-    font-weight: 700;
+	font-weight: 700;
     -webkit-transition: all 0s ease;
     -moz-transition: all 0s ease;
     -ms-transition: all 0s ease;
@@ -343,7 +343,7 @@ header ul.nav li ul li ul {
   border-bottom-color: none;
   content:none;
 }
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {color: #187FB3;background: #FFFF;border-radius: 0;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {color: #187FB3;background: #FFFF;border-radius: 0; font-size:22px; font-family: 'Times New Roman', Times, serif;}
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
   color: #FF8C00;
   background-color: transparent;
@@ -1827,4 +1827,17 @@ padding-top: 3px;
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.sub-menu li a {
+    color: rgba(255, 255, 255, 0.9);
+    display: block;
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: none;
+    font-weight: normal;
+}
+.sub-menu li{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.17);
+    padding: 11px 0;    
 }
