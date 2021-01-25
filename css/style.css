@@ -154,8 +154,8 @@ header .navbar {
     line-height: 0em;
     letter-spacing: -1px;
     margin-top: 0px;
-	padding: 0 0 0 15px;
-	overflow: inherit;
+	padding: 0 0 120px 15px;
+
 }
 
 .navbar-default .navbar-brand{
@@ -215,7 +215,7 @@ header  .navbar-nav > li > a {
     /* padding-bottom: 6px; */
     /* padding-top: 5px; */
     margin-left: 2px;
-    line-height: 20px;
+    line-height: 10px;
 	font-weight: 700;
     -webkit-transition: all 0s ease;
     -moz-transition: all 0s ease;
@@ -1841,3 +1841,11 @@ padding-top: 3px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.17);
     padding: 11px 0;    
 }
+div.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background-color: yellow;
+	padding: 50px;
+	font-size: 20px;
+  }
