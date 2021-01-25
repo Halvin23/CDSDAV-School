@@ -11,7 +11,7 @@
 <link href="css/jcarousel.css" rel="stylesheet" />
 <link href="css/flexslider.css" rel="stylesheet" />
 <link href="css/style.css" rel="stylesheet" />
-<link href="css/footer.css" rel="stylesheet" />
+<link href="css/footer1.css" rel="stylesheet" />
 
 
 
@@ -73,7 +73,67 @@
                 <a href="admission.html">Admission Going on for 2021 - 2022</a>
                 </marquee>
         </header>
+        <div class="slideshow-container">
 
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides ">
+              <img src="img/about1.jpg" style="width:100%" >
+              <div class="text" style="font-weight: bold; font-size: 60px; color: rgb(199, 23, 23);"></div>
+            </div>
+          </div>
+          <section id="content">
+            <div class="container">
+          <div class="col-md-12">
+            <div class="about-text">
+                <h2 style="font-weight: bold; color: blue;text-align: center; ">Message from the Principal</h2>
+                <br>
+            <p style="text-align: justify; font-size: medium; color: black; line-height: 30px;">Education helps the human to ignite the spark within us which shows the way to act. It builds optimism within the human being. It enhances all the qualities of human to the next level. 
+                It help us to accept the changes in the society, evolution of technology, collaboration with others, online teaching etc. It improves our self-esteem, self-confidence, self reflection, ability to evaluate information 
+                and predict future outcomes, ability to seek out alternative solutions and ensures to live a fulfilling life.<br></p>
+               <p style="text-align: center; font-size: medium; color: black; line-height: 30px;"> <b>Our School motto is</b><br></p>
+               <p style="text-align: center; font-size: medium; color: black; line-height: 30px;"> <b>"Education to all types of children"<br></b></p>
+               <p style="text-align: justify; font-size: medium; color: black; line-height: 30px;"> We promote holistic development of a child. It includes both curricular and co-curricular activities. Children were exposed to healthy environment.
+                We allow students to learn at their own pace, improves research skills, supports reasoning skills and improves self confidence by helping students acquire new tools.<br>
+                 We have a good parent teacher relationship which help us to improve our routine and learning tasks. They volunteer their service during mega events. They encourage both students and teachers by attending various activities organised by the school.<br>
+                We created supportive environment for education at our school.<br></p>
+                                    <h4 style="font-weight: bold;">-G.Renukadevi<br>
+                                        (B.Sc, B.Ed,M.C.A, M.Phil, M.B.A, M.S.C, D.Litt, P.G.D.C.A, P.G.D.E.L)</h4>
+        </div>
+        </div>
+
+          </section>
+
+          <script>
+            var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        // Next/previous controls
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        // Thumbnail image controls
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+        <br>
 
         <footer>
             <div class="col-ft">
@@ -92,7 +152,7 @@
             <ul class="sub-menu">
                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57"><a href="admission.html">Admissions Procedure</a></li>
             </ul>
-            </li>
+        </li>
          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-90"><a>Infrastructure</a>
          <ul class="sub-menu">
              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138"><a href="lab.html">Laboratory</a></li>
@@ -111,12 +171,12 @@
              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-144"><a href="extracurricular.html">Extra-Curricular</a></li>
              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4945"><a href="kinder.html">Kinder Garden</a></li>
          </ul>
-         </li>
-         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4469"><a href="documents.html">Documents</a></li>
          <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-100"><a>Contact Us</a>
-         <ul class="sub-menu">
-             <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-174 current_page_item menu-item-175"><a href="contact.html">Contact Info</a></li>
-         </ul>
+            <ul class="sub-menu">
+                <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-174 current_page_item menu-item-175"><a href="contact.html">Contact Info</a></li>
+            </ul>
+        </li>
+         </li>
          </li>
          </ul></div>                            
              <aside class="widget-area" role="complementary">
